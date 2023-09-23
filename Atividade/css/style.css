@@ -1,0 +1,267 @@
+.botao-header {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    background: #edce04;
+    height: 30px;
+    border: none;
+    margin-right: 10px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.botao-login-header {
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    background: #edce04;
+    height: 30px;
+    border: none;
+    width: 65px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-gim {
+    background: #edce04;
+    color: #fff;
+    height: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.label-contato{
+    color: rgb(255, 255, 255);
+    font-size: 10px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.header2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 10px 20px;
+}
+
+.logo{
+    color: rgb(0, 0, 0);
+    font-size: 31px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.botoes-header2{
+    color: rgb(0, 0, 0);
+    font-size: 13px;
+    font-family: Arial;
+    font-weight: bold;
+    background: #ffffff;
+    height: 30px;
+    border: none;
+    margin-right: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+.body2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.caixas-informacoes{
+    width: 20%;
+    height: 117px;
+    background-color: #edce04;
+    margin-top: 20px;
+    margin-left: 26px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-weight: bold;   
+}
+
+.body3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.botoes-informacoes{
+    width: 20%;
+    height: 15px;
+    background-color:  rgb(255, 255, 255);;
+    margin-left: 26px;
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-weight: bold;
+    
+}
+
+.botao-saiba-mais {
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    background: #ffffff;
+    height: 30px;
+    border: none;
+    margin-right: 5px;
+    border-radius: 5px;
+    cursor: pointer; 
+}
+
+.footer-gim {
+    background: #484848;
+    color: #fff;
+    height: 32px;
+    width: 94%; /* Use 'auto' para que o footer se ajuste ao conteúdo */
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    padding: 0 10px; 
+    margin-left: 26px;
+}
+
+.icon-footer {
+    height: 32px;
+    width: 32px;
+    background-color: #edce04;
+}
+
+.label-footer {
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.label-caixas{
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    margin-left: 11px;
+}
+
+#label-caixa1{
+    font-size: 30px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+    margin: 0; 
+}
+
+#label-caixa2{
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+    margin: 0; 
+}
+
+#label-caixa3{
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff;
+    margin: 0; 
+}
+
+#imagem-centro{
+    background-image: url('../imagens/borboleta.jpg');
+    width: 95%;
+    height: 526px;
+    background-size: cover;
+    margin-left: 28px;
+    background-position: center 63%;
+    margin-top: 10px;
+}
+
+#imagem-lista{
+    background-image: url('../imagens/icons8-lista-30.png');
+    width: 52px;
+    height: 48px;
+    background-size: cover;
+    margin-left: 100px;
+    background-position: center 63%;
+    margin-top: 21px;
+}
+
+#imagem-lampada{
+    background-image: url('../imagens/icons8-ideia-30.png');
+    width: 52px;
+    height: 48px;
+    background-size: cover;
+    margin-left: 100px;
+    background-position: center 63%;
+    margin-top: 21px;
+}
+
+#imagem-notebook{
+    background-image: url('../imagens/icons8-notebook-30.png');
+    width: 52px;
+    height: 48px;
+    background-size: cover;
+    margin-left: 100px;;
+    background-position: center 63%;
+    margin-top: 21px;
+}
+
+#imagem-engrenagem{
+    background-image: url('../imagens/icons8-engrenagens-30.png');
+    width: 52px;
+    height: 48px;
+    background-size: cover;
+    margin-left: 100px;
+    background-position: center 63%;
+    margin-top: 21px;
+}
+
+#imagem-caixa1{
+    background-color: rgba(104, 102, 102, 0.5);
+    width: 300px;
+    height: 57px;
+    text-align: center;
+    margin-left: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+
+}
+
+#imagem-caixa2{
+    background-color: rgba(104, 102, 102, 0.5); 
+    width: 165px;
+    height: 49px;
+    margin-top: 13px;
+    margin-left: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#imagem-caixa3{
+    background-color: #edce04;
+    width: 228px;
+    height: 50px;
+    margin-top: 14px;
+    margin-left: 50px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+#imagem-caixa-invisivel{
+    width: 300px;
+    height: 50px;
+    text-align: center;   
+}
