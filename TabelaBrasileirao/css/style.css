@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    background-color: #10502f;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 24px;
+    width: 100%;
+    box-sizing: border-box;
+    height: 112px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000; /* Um valor alto para garantir que fique acima do conteúdo */
+}
+
+.label-cabecalho{
+    font-size: 17px;
+    line-height: 20px;
+    position: absolute;
+    top: 16px;
+    left: 30px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px; /* Defina a largura máxima da tabela */
+    margin-top: 160px; /* Ajustado para evitar sobreposição com o cabeçalho fixo */
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: none;
+    border-bottom: 1px solid #ddd;
+    padding: 2px;
+    text-align: center;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+.libertadores {
+    width: 1px; /* Ajustado para 1px */
+    background-color: #007bff;
+}
+
+.libertadores4 {
+    height: 38px;
+}
+
+.laranja {
+    background-color: #ff7f00; /* Laranja */
+}
+
+.verde {
+    background-color: #28a745; /* Verde */
+    color: #fff;
+}
+
+.vermelho {
+    background-color: #dc3545; /* Vermelho */
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.celula-interativa {
+    cursor: pointer;
+}
+
+.celula-interativa:hover {
+    background-color: #e0e0e0; /* Altere para a cor desejada quando o mouse estiver sobre a célula */
+    cursor: pointer; /* Altere para o cursor desejado quando o mouse estiver sobre a célula */
+}

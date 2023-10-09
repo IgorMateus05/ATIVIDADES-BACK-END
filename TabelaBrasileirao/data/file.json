@@ -1,0 +1,6 @@
+{
+    "titulo": "JSON",
+    "resumo": "Nossa Aula",
+    "ano": 2023,
+    "genero": ["aventura", "ação", "ficção"]
+}
